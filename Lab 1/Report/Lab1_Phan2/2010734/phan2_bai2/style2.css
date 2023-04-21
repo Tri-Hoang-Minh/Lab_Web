@@ -1,0 +1,55 @@
+
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+ }
+ td, th {
+    text-align: center;
+    border: 2px solid #DCDCDC;
+    /* #dee4e6; */
+  }
+  table{
+    width:250px;
+    border-collapse: collapse;
+  }
+  h2{
+    color: #B22222;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  strong{
+    font-size: 0.65cm; 
+    text-decoration: underline;
+  }
+  .tick0{
+    text-shadow: 5px 5px blue;
+    color: #B22222;
+    font-family: 'Times New Roman', Times, serif;
+}
+  .tick1{
+    font-size: 0.6cm;
+    font-style: italic;
+    font-weight: 550;
+    text-decoration: underline;
+  }
+  .tick2{
+    color:red;
+  }
+  .tick3{
+    color: #5F9EA0;
+    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
+
+  }
+  a{
+    color:blue;
+  }
+  img{
+    padding:6px;
+    background-color: red;
+    border-radius: 15px;
+  }
+  p::first-letter
+  {
+    font-size: 400%;
+    font-weight: 600;
+  }

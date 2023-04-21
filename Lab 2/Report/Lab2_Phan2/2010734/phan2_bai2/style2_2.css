@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 500px;
+    margin:auto;  /* Dung de canh giua */
+    background-color: rgb(13,0,31);
+    background-image: url("Free\ Photo\ _\ Business\ office\ sence.jfif");
+    margin:auto;
+    background-repeat: repeat;
+}
+.container{
+    width: 500px;
+    margin: 10px auto;
+}
+.screen{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.keyboard{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.item
+{
+    height: 100px;
+    outline: none;
+    border: 1px solid rgb(212,212,212);
+}
+.item:hover{
+    cursor:pointer;
+    background-color: #66CCFF;
+}
+.item1
+{
+    grid-column: 1/span 2;
+}
+.item1:hover{
+    cursor:help;
+    background-color: #FF3333;
+}
+.item2:hover{
+    cursor:help;
+    background-color: #FF3333;
+}
+.item19:hover
+{
+    cursor: wait;
+    background-color:#33FF99 ;
+}
+.screen .input
+{
+    position: absolute;
+    top:0;
+    right:5px;
+    font-size: 45px;
+    color: black;
+    font-family: simplecode;
+    /* z-index: 222; */
+}
+/* 3,7,11,15 */
+.item3:hover{
+    cursor:default;
+    background-color: #FF6699;
+}
+.item7:hover{
+    cursor:default;
+    background-color: #FF6699;
+}
+.item11:hover{
+    cursor:default;
+    background-color: #FF6699;
+}
+.item15:hover{
+    cursor:default;
+    background-color: #FF6699;
+}
+@font-face{
+    font-family: simplecode;
+    src: url(digital-7.ttf);
+    font-weight:normal;
+    font-style: normal;
+}
+h1{
+    background-color: white;
+    text-align: center;
+}

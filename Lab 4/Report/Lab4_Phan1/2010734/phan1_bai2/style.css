@@ -1,0 +1,17 @@
+
+body{
+    text-align: center;
+    width: 700px;
+    padding: 0;
+    margin:auto;
+}
+
+.noteBox {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }

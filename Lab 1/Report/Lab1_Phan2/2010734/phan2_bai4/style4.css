@@ -1,0 +1,113 @@
+body{
+    text-align: justify;
+    display: flex;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.FullPage{
+    margin: auto;
+}
+.Header{
+    background-color: gray;
+    width: 800px;
+    height: 50px;
+    padding-left: 10px;
+    margin:0%;
+    box-sizing: border-box;
+}
+.a1{
+    color: white;
+    padding-right: 15px;
+    align-content: center;
+}
+.a2{
+    color: blue;
+}
+.a3{
+    color: blue;
+}
+.Menu{
+    background-color: blue;
+    padding-left: 40px;
+    height: 50px;
+    width:800px ;
+    box-sizing: border-box;
+    align-content: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.Link{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 250px;
+    box-sizing: border-box;
+    /* Tao hieu ung column cho Link  */
+}
+.Link_block1{
+
+    background-color: yellow;
+    height: 150px;
+    width: 250px;
+    box-sizing: border-box;
+    font-weight: bold;
+    
+}
+.Link_block2{
+
+    background-color: grey;
+    height: 150px;
+    width: 250px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.content_green{
+    background-color: green;
+    padding-top: 20px;
+    height: 128px;
+    padding-left: 10px;
+    width: 275px;
+    padding-right: 10px;
+    display: block;
+}
+.content_red{
+    background-color: red;
+    height: 128px;
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 275px;
+    padding-right: 10px;
+    display: block;
+}
+.content{
+    width: 550px;
+    box-sizing: border-box;
+}
+.content1{
+    padding-left: 10px;
+}
+.Columns{
+ display: flex;
+}
+.content_color{
+  display: flex;
+  flex: 50%;
+}
+.footer{
+    background-color: blue;
+    width: 800px;
+    height: 50px;
+    box-sizing: border-box;
+   display: flex;
+}
+.footer-text
+{
+    font-size: 35px;
+    font-weight: 600;
+    margin: auto;  /* Cho vao giua block chua Footer  */
+    text-align: center;
+}
+ul{
+    margin-top: 0;
+}

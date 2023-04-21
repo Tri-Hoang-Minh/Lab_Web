@@ -1,0 +1,19 @@
+.center
+{
+    text-align: center;
+    padding-left: 20px;
+}
+.b2
+{
+    text-decoration: underline;
+}
+.card-img, .card-img-bottom, .card-img-top {
+  height: 180px;
+  width: 50px;
+}
+.item
+{
+ padding-left: 10px;
+ color: black;
+ text-decoration: none;
+}

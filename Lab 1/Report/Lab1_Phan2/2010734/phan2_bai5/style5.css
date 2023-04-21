@@ -1,0 +1,185 @@
+/* z-index cang cao thi cang o ben tren */
+/*  4 2 1 3 */
+body{
+    background: url(images03/bg-body.png) center center;
+    background-repeat:  no-repeat;
+    background-size: 1600px 1200px;
+    background-position: center center;
+    margin: 0;
+}
+html
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+.FullPage
+{
+        margin: auto;
+        width: 700px;
+        height: 700px;
+    
+}
+h1
+{
+    font-style: italic;
+    color: #aaaaaa;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    margin: 0;
+    font-weight:400;
+}
+h2
+{
+        margin: 0;
+        padding: 20px 0 0 0;
+        color: #9ACD32;
+        font-size: 30px;
+}
+.title
+ /* Do rong cua <div class="Title" la 700px */
+{
+        background-image: url(images03/bg-header.jpg);
+        height: 150px;
+        width: 700px;
+        box-sizing: border-box;
+        background-size: 700px 150px;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+}
+.Link-child
+{
+     color: white;
+     padding-left: 20px;
+     text-decoration: none;
+
+}
+.Link
+{
+    background-image: url(images03/bg-menu.png);
+    width: 700px;
+    height: 30px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 700px 30px;
+}
+.sponsor
+{  
+
+    background-size: 500px 100px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 100px;
+    margin: 0;
+    padding-left: 1px;
+    box-sizing: border-box;
+}
+div.feed1
+{
+    height: 35px;
+    width: 170px;
+    position: relative;
+    background-image: url(images03/bg-feed.gif);
+    background-repeat: no-repeat;
+    background-color: #efefef;
+    background-size: contain;
+    margin: 0;
+}
+div.feed2{
+    /* margin: auto; */
+    height: 26px;
+    width: 170px;
+    margin: auto;
+    box-sizing: border-box;
+    background-image: url(images03/button-feed.png);
+    background-repeat: no-repeat;
+    margin: 0;
+     position: absolute;
+    left: 40px;  
+     
+}
+div.feed3 {
+    height: 22.5px;
+    width: 170px;
+    /* margin: auto; */
+    background-image: url(images03/bg-sidebar-bottom.gif);
+    background-repeat: no-repeat;
+    background-size: contain;  
+    margin:0;
+}
+
+.Live-feed {
+    /* padding: 0 10px 0 0; */
+    margin: 0;
+    /* float: right; */
+    width: 170px;
+    text-align: justify;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.b2 {
+    height: 20px;
+    width: 170px;
+    border-bottom: 1px solid #696969;
+    background-color: #efefef;
+}
+
+.a2 {
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.content
+{
+    /* float: left;
+    width: 75%;
+    padding: 0 10px;
+    text-align: justify;
+    box-sizing: border-box; */
+    padding-left: 5px;
+    display: flex;
+    box-sizing: border-box;
+    width: 75% ;
+    flex-direction: column;
+    text-align: justify;
+}
+.columns
+{
+    display: flex;
+}
+.comment
+{
+    color: #48D1CC;
+    background-image: url(images03/icon-comment.png);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+
+}
+.posted
+{
+    color: grey;
+    font-size: 12px;
+    margin:0
+}
+
+.BackgroundFooter
+{
+    background-image: url(images03/bg-footer.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom ;
+    margin-top: 40px;
+    background-size: 700px 130px;
+    width: 700px;
+    height: 130px;
+    box-sizing: border-box;
+}
+.Footer
+{
+    padding-left: 20px;
+    padding-top: 90px;
+    color: white;
+}
